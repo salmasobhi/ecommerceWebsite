@@ -83,6 +83,12 @@ function updateCart() {
     var countItemTotal = 0; 
     var totalPriceAll = 0;
 
+    // Clear existing event listeners
+    const oldButtons = document.querySelectorAll('.quantityControl button, .delete-item');
+    oldButtons.forEach(button => {
+        button.replaceWith(button.cloneNode(true));
+    });
+
     cartItems.innerHTML = "";
     cart.forEach((item, i) => {
         let totalPrice = item.price * item.quantity;
@@ -105,6 +111,7 @@ function updateCart() {
         `;  
     });
 
+    // Update cart counters and totals
     const countItemHeader = document.querySelector(".count-item");
     const cartItemsincart = document.querySelector(".cart-countincart");
     const pricecartInNav = document.querySelector(".price-cart");
@@ -115,7 +122,7 @@ function updateCart() {
     if (cartItemsincart) cartItemsincart.innerHTML = countItemTotal;
     if (countItemHeader) countItemHeader.innerHTML = countItemTotal;
 
-    // Add event listeners for cart controls
+    // Add fresh event listeners
     addCartControls();
 }
 
