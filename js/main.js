@@ -280,7 +280,25 @@ checkOutBtn.addEventListener('click', function() {
     localStorage.removeItem('cartItems'); 
 });
 /////////////////////////////Login///////////////////////////////////////////////////////
+// Login/Logout visibility control
+const loginBtn = document.querySelector('.login-btn');
+const logoutBtn = document.querySelector('.logout-btn');
 const username = localStorage.getItem('username');
+
+if (username) {
+    loginBtn.style.display = 'none';
+    logoutBtn.style.display = 'inline-block';
+} else {
+    loginBtn.style.display = 'inline-block';
+    logoutBtn.style.display = 'none';
+}
+
+// Add logout functionality
+logoutBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    localStorage.removeItem('username');
+    window.location.reload();
+});
 if (username) {
     document.getElementById('greeting').textContent = `Hello, ${username}.`;
 } else {

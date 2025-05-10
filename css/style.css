@@ -876,3 +876,224 @@ border-bottom:3px solid var(--main-color);
     align-items: center;
     padding: 10px 0;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .contanier {
+        width: 90%;
+    }
+    
+    .slider .contanier {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .slider .contanier .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .slider .contanier .sidebar h2 {
+        width: 100%;
+        justify-content: center;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .slider .contanier .sidebar a {
+        border: 1px solid var(--border-color);
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .slider .contanier #img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin-top: 100px;
+    }
+
+    header .nav {
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px 0;
+    }
+
+    header .nav .logo img {
+        width: 80px;
+    }
+
+    header .nav .search {
+        width: 100%;
+    }
+
+    header .nav .search input {
+        padding: 10px;
+    }
+
+    header .nav .search button {
+        width: 80px;
+        font-size: 14px;
+    }
+
+    header .nav .cart-nav {
+        width: auto;
+    }
+
+    header .nav .cart-nav i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 16px;
+    }
+
+    header .links {
+        padding: 5px 0;
+    }
+
+    header .links ul {
+        gap: 15px;
+    }
+
+    header .links ul li {
+        padding: 8px 0;
+    }
+
+    header .links .login-signup a {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        margin-top: 80px;
+    }
+
+    header .nav .search button {
+        width: 60px;
+        font-size: 12px;
+    }
+
+    header .links ul li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .features .contanier {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .features .contanier .features-item {
+        flex: 0 0 calc(33.33% - 10px); /* ثلاث عناصر في كل صف */
+    }
+
+    .features .contanier .features-item img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .features .contanier {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .features .contanier .features-item {
+        flex: 0 0 calc(50% - 10px); /* عنصرين في كل صف */
+    }
+
+    .features .contanier .features-item img {
+        width: 60px;
+        height: auto;
+    }
+}
+/* ... existing code ... */
+
+@media screen and (max-width: 992px) {
+    .item-details {
+        margin-top: 70px;
+        padding: 20px 0;
+    }
+
+    .item-detail {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item-detail {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .item-details .contant .image,
+    .item-details .contant .details {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .item-details .contant .details {
+        text-align: center;
+    }
+
+    .item-details .contant .details .rating {
+        justify-content: center;
+        display: flex;
+    }
+
+    .item-details .contant .details .price {
+        justify-content: center;
+    }
+
+    .item-details .contant .details .btn-addcart {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .item-details {
+        margin-top: 60px;
+    }
+
+    .item-detail {
+        padding: 15px;
+    }
+
+    .item-details .contant .details h3 {
+        font-size: 20px;
+    }
+
+    .item-details .contant .details p {
+        font-size: 14px;
+    }
+
+    .item-details .contant .details .price {
+        font-size: 20px;
+    }
+
+    .item-details .contant .details .btn-addcart {
+        height: 45px;
+        font-size: 14px;
+    }
+}
