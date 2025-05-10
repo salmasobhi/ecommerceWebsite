@@ -1,0 +1,271 @@
+[
+    {
+      "id": 0,
+      "img": "image/cloth1.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 1085,
+      "old_price": 1200
+    },
+    {
+      "id": 1,
+      "img": "image/cloth2.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 1000,
+      "old_price": 1200
+    },
+    {
+      "id": 2,
+      "img": "image/cloth3.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 1400
+    },
+    {
+      "id": 3,
+      "img": "image/cloth4.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 90,
+      "old_price": 110
+    },
+    {
+      "id": 4,
+      "img": "image/cloth5.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 1350,
+      "old_price": 1420
+    },
+    {
+      "id": 5,
+      "img": "image/cloth6.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 6880
+    },
+    {
+      "id": 6,
+      "img": "image/cloth7.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 225,
+      "old_price": 280
+    },
+    {
+      "id": 7,
+      "img": "image/cloth8.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 150,
+      "old_price": 200
+    },
+    {
+      "id": 8,
+      "img": "image/cloth9.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 180
+    },
+    {
+      "id": 9,
+      "img": "image/cloth10.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 300
+    },
+    {
+      "id": 10,
+      "img": "image/cloth11.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 250
+    },
+    {
+      "id": 11,
+      "img": "image/jelwery1.jpg",
+      "category":"Jewelry",
+      "name": "best clothes ever",
+      "price": 120
+    },
+    {
+      "id": 12,
+      "img": "image/jelwery2.jpg",
+      "category":"Jewelry",
+      "name": "best clothes ever",
+      "price": 90
+    },
+    {
+      "id": 13,
+      "img": "image/jelwery3.jpg",
+      "category":"Jewelry",
+      "name": "best clothes ever",
+      "price": 129
+    },
+    {
+      "id": 14,
+      "img": "image/jelwery4.jpg",
+      "category":"Jewelry",
+      "name": "best clothes ever",
+      "price": 180,
+      "old_price": 200
+    },
+    {
+      "id": 15,
+      "img": "image/jelwery5.jpg",
+      "category":"Jewelry",
+      "name": "best clothes ever",
+      "price": 60,
+      "old_price": 200
+    },
+    {
+      "id": 34,
+      "img": "image/jelwery6.jpg",
+      "category":"Jewelry",
+      "name": "best clothes ever",
+      "price": 60,
+      "old_price": 200
+    },
+    {
+      "id": 35,
+      "img": "image/jelwery7.jpg",
+      "category":"Jewelry",
+      "name": "best clothes ever",
+      "price": 60,
+      "old_price": 200
+    },
+    {
+      "id": 16,
+      "img": "image/clothkids1.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 60
+    },
+    {
+      "id": 17,
+      "img": "image/clothkids2.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 60
+    },
+    {
+      "id": 18,
+      "img": "image/clothkids3.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 235,
+      "old_price": 635
+    },
+    {
+      "id": 19,
+      "img": "image/clothkids4.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 780,
+      "old_price": 800
+    },
+    {
+      "id": 20,
+      "img": "image/clothkids5.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 600,
+      "old_price": 635
+    },
+    {
+      "id": 21,
+      "img": "image/clothkids6.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 500
+    },
+    {
+      "id": 22,
+      "img": "image/clothkids5.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 850
+    },
+    {
+      "id": 23,
+      "img": "image/clothkids8.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 233
+    },
+    {
+      "id": 31,
+      "img": "image/clothkids9.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 980
+    },
+    {
+      "id": 32,
+      "img": "image/clothkids10.jpg",
+      "category":"kids",
+      "name": "best clothes ever",
+      "price": 450,
+      "old_price": 800
+    },
+    {
+      "id": 24,
+      "img": "image/shose7.jpg",
+      "category":"shose",
+      "name": "best clothes ever",
+      "price": 788,
+      "old_price": 800
+    },
+    {
+      "id": 25,
+      "img": "image/shose5.jpg",
+      "category":"shose",
+      "name": "best clothes ever",
+      "price": 950
+    },
+    {
+      "id": 26,
+      "img": "image/shose6.jpg",
+      "category":"shose",
+      "name": "best clothes ever",
+      "price": 560
+    },
+    {
+      "id": 27,
+      "img": "image/shose1.jpg",
+      "category":"shose",
+      "name": "best clothes ever",
+      "price": 400,
+      "old_price": 500
+    },
+    {
+      "id": 28,
+      "img": "image/shose2.jpg",
+      "category":"shose",
+      "name": "best clothes ever",
+      "price":340
+    },
+    {
+      "id": 29,
+      "img": "image/shose3.jpg",
+      "category":"shose",
+      "name": "best clothes ever",
+      "price": 450
+    },
+    {
+      "id": 30,
+      "img": "image/shose4.jpg",
+      "category":"shose",
+      "name": "best clothes ever",
+      "price": 60
+    },
+    {
+      "id": 56,
+      "img": "image/cloth1.jpg",
+      "category":"women cloths",
+      "name": "best clothes ever",
+      "price": 1085,
+      "old_price": 1200
+    }
+  ]
